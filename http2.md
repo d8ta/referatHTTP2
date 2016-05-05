@@ -3,23 +3,48 @@
 
 ---
 
-## Gliederung
+##Die Entwicklung von HTTP
 
 ---
 
-## Einleitung
+###HTTP/1.1 Standard seit 1999
+###Kaum Weiterentwicklung
 
 ---
 
-## Vergleich zu HTTP1
+###Eigene Protokolle z.B. SPDY (Google)
+###IETF verabschieded HTTP/2.0 Standard
 
 ---
 
-## Neue Features
+#Argumentierte Vorteile
 
 ---
 
-## Fazit und Aussicht
+##Schneller
+##Effizienter
+##Sicherer
+
+---
+
+##Schneller
+###warum???
+
+
+---
+
+##Effizienter
+###warum???
+
+---
+
+##Sicherer
+###warum???
+
+---
+
+##Beispiel: Push
+### Praktisches bsp.
 
 
 <!-- ## Background Images

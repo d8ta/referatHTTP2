@@ -7,15 +7,53 @@
 
 ---
 
-###HTTP/1.1 Standard seit 1999
-###Kaum Weiterentwicklung
+##HTTP/0.9 (1991)
+###Nur GET und URL
 
 ---
 
-###Eigene Protokolle z.B. SPDY (Google)
-###IETF verabschieded HTTP/2.0 Standard
+##HTTP/1.0 (1996)
+###Statuscodes und Header
 
 ---
+
+##HTTP/1.1 (Standard seit 1999)
+###Persistant Connections
+<!-- Verbindung wir solange aufrecht erhalten, bis
+client oder server diese schliessen will; reduzieren latenz -->
+
+---
+
+##Eigene Protokolle z.B. SPDY (Google)
+###Weil wenig bis keine Weiterentwicklung
+
+---
+
+##HTTP/2.0 (Mai 2015)
+###IETF verabschieded HTTP/2.0
+
+---
+
+##Best Practice HTTP/1.1
+###Spriting
+<!-- mehrere kleines img in großes zusammenfassen -->
+###Inlining
+<!-- JS und CSS aus HTML muss nicht extra überagen werden,
+nachteil: keine externen CSS im cache -->
+###Concatenation
+<!-- Zusammenfassen mehrerer js oder css files zu einem -->
+
+---
+
+###Sharding
+<!-- Pro Host 6 verbindungen erlaubt, durch anfragen
+mehrerer hosts auch mehr verbindungen -->
+###Cookie-less Domains
+<!-- Assests von anderern domains ohne cookies damit requests
+entlastet werden -->
+
+---
+
 
 #Argumentierte Vorteile
 
